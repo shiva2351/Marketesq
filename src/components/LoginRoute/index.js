@@ -21,7 +21,7 @@ const LoginRoute =()=>{
             <input className="Register-input" type="text" placeholder="USER" />
             <input  className="Register-input" type="text" placeholder="PASSWORD" />
             <button className="Register-button" type="submit">LOGIN</button>
-            <p>Don't have an account? <Link to="/sign-up"><span>Sign-Up</span></Link></p>
+            <p>Don't have an account? <Link to="/Register"><span>Register</span></Link></p>
         </form>
     </div>
     </div>

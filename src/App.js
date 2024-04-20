@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
 import Home from './components/Home';
 import LoginRoute from './components/LoginRoute';
-import DoctorsRoute from './components/DoctorsRoute';
+import ProductsRoute from './components/ProductsRoute';
 import CourseCard from './components/CourseCard';
 import RegisterRoute from './components/RegisterRoute';
 import AboutRoute from './components/AboutRoute';
@@ -29,10 +29,10 @@ class App extends Component {
       <Route exact path="/courses" component={CourseCard}/>
       <Route exact path="/cart" component={CartRoute}/>
       <Route exact path="/profile" component={ProfileRoute}/>
-      <Route exact path="/doctors" component={DoctorsRoute}/>
+      <Route exact path="/products" component={ProductsRoute}/>
       <Route exact path="/about" component={AboutRoute}/>
       <Route exact path="/login" component={LoginRoute}/>
-      <Route exact path="/sign-up" component={RegisterRoute}/>
+      <Route exact path="/register" component={RegisterRoute}/>
       </Switch>
     </div>
   
